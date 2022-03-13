@@ -1,0 +1,84 @@
+body {
+  margin: 0px;
+}
+
+main {
+  padding: 16px 32px;
+}
+
+h1 {
+  margin-top: 0;
+  margin-bottom: 32px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 48px;
+  text-transform: uppercase;
+  color: #000f2c;
+}
+
+form {
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 32px;
+}
+
+form > *:not(:last-child) {
+  margin-right: 32px;
+}
+
+table {
+  font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+  font-size: 14px;
+  border-radius: 10px;
+  border-spacing: 0;
+  text-align: center;
+}
+
+th {
+  background: #e7ebff;
+  padding: 10px 20px;
+}
+th,
+td {
+  border-style: solid;
+  border-width: 0 1px 1px 0;
+  border-color: white;
+}
+th:first-child,
+td:first-child {
+  text-align: left;
+}
+
+td {
+  padding: 10px 20px;
+  background: #e7ebff;
+}
+
+thead td {
+  font-weight: 600;
+}
+
+th:first-child {
+  border-top-left-radius: 10px;
+}
+th:last-child {
+  border-top-right-radius: 10px;
+  border-right: none;
+}
+tr:last-child td:first-child {
+  border-radius: 0 0 0 10px;
+}
+tr:last-child td:last-child {
+  border-radius: 0 0 10px 0;
+}
+tr td:last-child {
+  border-right: none;
+}
+
+select {
+  height: 45px;
+  border-radius: 10px;
+  border-color: rgb(136, 136, 136);
+}

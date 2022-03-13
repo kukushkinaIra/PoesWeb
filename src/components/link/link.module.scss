@@ -1,0 +1,33 @@
+@mixin link_root {
+  padding: 0px 24px;
+  display: flex;
+  height: 70px;
+  align-items: center;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: #000f2c;
+  text-decoration: none;
+}
+
+.link {
+  @include link_root();
+}
+
+.link:visited {
+  color: #000f2c;
+}
+
+.link:hover {
+  color: #0263bc;
+}
+
+.active {
+  @include link_root();
+  background-color: #e9f2fa;
+  color: #0263bc;
+}
